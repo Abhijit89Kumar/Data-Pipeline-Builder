@@ -1,0 +1,81 @@
+# Existing dependencies
+tavily-python==0.7.2
+langchain-groq==0.3.2
+langgraph==0.4.3
+beautifulsoup4==4.13.4
+langchain-community==0.3.24
+slack_sdk==3.35.0
+boto3==1.38.15
+openai==1.78.1
+agentql==1.10.0
+firecrawl-py==2.5.4
+brave-search==0.1.8
+
+# Additional dependencies for Multi-Agent Pipeline System
+pyautogen>=0.2.0
+prefect>=2.0.0
+
+# Core web framework dependencies
+fastapi>=0.104.0
+uvicorn>=0.24.0
+redis>=5.0.0
+prometheus-client>=0.19.0
+python-multipart>=0.0.6
+python-jose>=3.3.0
+passlib>=1.7.4
+bcrypt>=4.1.2
+
+# Data processing libraries
+langchain>=0.1.0
+unstructured>=0.10.0
+pymupdf4llm>=0.0.5
+docling>=1.0.0
+
+# Vector databases
+pinecone-client>=3.0.0
+qdrant-client>=1.7.0
+weaviate-client>=4.0.0
+chromadb>=0.4.0
+
+# Embedding providers
+cohere>=4.0.0
+jina>=3.0.0
+
+# External tools
+google-search-results>=2.4.0
+
+# Web interface (optional)
+streamlit>=1.28.0
+streamlit-ace>=0.1.1
+streamlit-aggrid>=0.3.4
+streamlit-option-menu>=0.3.6
+
+# Utility libraries
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+tiktoken>=0.5.0
+requests>=2.31.0
+aiohttp>=3.8.0
+
+# Development dependencies
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Additional dependencies for specific components
+groq>=0.4.0    # For Groq API
+jira>=3.5.0    # For Jira integration
+
+# PDF processing
+pdf2image>=1.16.0
+pytesseract>=0.3.10
+Pillow>=10.0.0
+
+# Text processing
+spacy>=3.7.0
+nltk>=3.8.0
+sentence-transformers>=2.2.0
+
+# Async support
+asyncio-mqtt>=0.13.0
+aiofiles>=23.0.0
