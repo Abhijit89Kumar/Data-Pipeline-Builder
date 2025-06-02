@@ -41,9 +41,9 @@ app.add_middleware(
 
 # Configuration
 class Config:
-    AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT", "https://admins.openai.azure.com/")
-    AZURE_OPENAI_KEY = os.getenv("AZURE_OPENAI_KEY", "ab75735c129449b78343771a136adb54")
-    AZURE_OPENAI_MODEL = os.getenv("AZURE_OPENAI_MODEL", "gpt-4o")
+    AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
+    AZURE_OPENAI_KEY = os.getenv("AZURE_OPENAI_KEY")
+    AZURE_OPENAI_MODEL = os.getenv("AZURE_OPENAI_MODEL")
     REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379/0")
     HOST = os.getenv("HOST", "0.0.0.0")
     PORT = int(os.getenv("PORT", 8000))
