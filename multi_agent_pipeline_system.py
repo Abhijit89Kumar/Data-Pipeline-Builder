@@ -14,13 +14,7 @@ import autogen
 from autogen import AssistantAgent, UserProxyAgent, GroupChat, GroupChatManager
 
 # Azure OpenAI Configuration
-AZURE_CONFIG = {
-    "model": "gpt-4o",
-    "api_type": "azure",
-    "base_url": "https://admins.openai.azure.com/",
-    "api_key": "ab75735c129449b78343771a136adb54",
-    "api_version": "2023-05-15"
-}
+AZURE_CONFIG = {} #Use your cnfig here
 
 class DataPipelineAgentSystem:
     """Main orchestrator for the multi-agent data pipeline system."""
