@@ -24,13 +24,7 @@ class EnterpriseConfig:
     """Enterprise configuration with advanced settings."""
     
     # Azure OpenAI Configuration (AutoGen compatible)
-    azure_config: Dict[str, Any] = field(default_factory=lambda: {
-        "model": "gpt-4o",
-        "api_type": "azure",
-        "base_url": "https://admins.openai.azure.com/",
-        "api_key": "ab75735c129449b78343771a136adb54",
-        "api_version": "2023-05-15"
-    })
+    azure_config: Dict[str, Any] = field(default_factory=lambda: {}) #Use your Azure Config
 
     # Separate LLM parameters (not part of AutoGen config)
     llm_temperature: float = 0.1
