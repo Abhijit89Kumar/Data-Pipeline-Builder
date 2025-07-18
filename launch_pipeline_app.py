@@ -15,7 +15,7 @@ def check_dependencies():
     
     required_packages = [
         "streamlit",
-        "pyautogen", 
+        "ag2", 
         "openai",
         "prefect",
         "langchain",
